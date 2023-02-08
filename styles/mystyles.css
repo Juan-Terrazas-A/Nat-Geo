@@ -1,0 +1,39 @@
+/*globals*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*utilities*/
+
+/*nav*/
+nav{
+    background-color: white;
+}
+.ng-logo{
+    display: none;
+}
+
+.Menu{
+    display: none;
+}
+
+.Newsletters{
+    display: none;
+}
+
+.Lupa{
+    display: none;
+}
