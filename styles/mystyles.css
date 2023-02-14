@@ -19,11 +19,40 @@ a{
 /*utilities*/
 
 /*nav*/
-nav{
+nav.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: white;
+    height: 50px;
 }
 .ng-logo{
     display: none;
+    
+}
+
+.ng-border{
+    margin-left: 15;
+}
+
+.Login{
+text-transform: uppercase;
+font-weight: bold;
+margin-right: 14;
+letter-spacing: 3px;
+
+}
+
+.Subscribe{
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 17;
+    margin-right: 20px;
 }
 
 .Menu{
@@ -36,4 +65,42 @@ nav{
 
 .Lupa{
     display: none;
+}
+
+.angles{
+    margin-right: 20;
+}
+
+.main-news{
+    position: relative;
+}
+
+.main-news-text{
+    position: absolute;
+    top: 100px;
+}
+
+.main-news-text h3{
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom:20px ;
+}
+
+.main-news-text p{
+    font-size: 20;
+    letter-spacing:1;
+}
+
+.main-news-text a{
+    display: block;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+
+.main{
+
 }
