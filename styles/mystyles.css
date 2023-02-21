@@ -81,6 +81,7 @@ letter-spacing: 3px;
 }
 .main-news{
     position: relative;
+    margin-top: 100px;
 }
 
 .main-news2{
@@ -206,7 +207,7 @@ border-bottom: 3px solid rgb(255, 200, 0);
 }
 
 .yellowLine {
-    color: black;
+    color: rgb(0, 0, 0);
     border-bottom: 3px solid rgb(255, 200, 0);   
 }
 
@@ -246,10 +247,21 @@ color: black;
 .main{
     display: flex;
     flex-direction: row-reverse;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.main-news{
+
 }
 
 .sec-news{
     display: flex;
+}
+
+.AllNews{
+    padding-right: 215px;
+    
 }
 
 .Menu{
@@ -265,6 +277,7 @@ color: black;
     letter-spacing: 0px;
     text-transform: uppercase;
     text-transform: initial;
+    border-bottom: 2px solid rgb(255, 200, 0) ;
 }
 
 .Lupa{
@@ -273,9 +286,32 @@ color: black;
 
 .ng-logo{
     display: inline-block; 
+    margin-left: 15;
 }
 
 .ng-border{
     display: none;
+}
+
+.SEE-MORE{
+    text-align: left;
+}
+
+.sec-TP{
+    margin-top: 50px;
+    
+    
+}
+
+.LatestStories{
+    margin-top: 100px;
+    margin-left: 25px;
+    letter-spacing: 3px;
+    font-size: 55px;
+}
+
+.textSubscribe{
+    letter-spacing: 2px;
+    font-size: 18px;
 }
 }
